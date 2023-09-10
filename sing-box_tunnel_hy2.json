@@ -43,29 +43,19 @@
 ],
     "outbounds": [
         {
-			"type": "trojan",
-			"tag": "trojan-out",
+			"type": "hysteria2",
+			"tag": "hy2-out",
 			"server": "3.10.140.122",
-			"server_port": 443,
-			"password": "21bf8ad1-f5f9-4191-9d7b-201e96e7bd15",
-			"network": "tcp",
-		        "transport": {
-				"type": "grpc",
-				"permit_without_stream": false
+			"server_port": 8443,
+			"up_mbps": 1000,
+			"down_mbps": 1000,
+		        "obfs": {
+		          "type": "salamander",
+			  "password": "Hivaabad1998"
 			},
-			"tls": {
-			"enabled": true,
-			"server_name": "aws.amazon.com",
-		        "utls": {
-			"enabled": true,
-			"fingerprint": "chrome"
-					},
-			"reality": {
-			"enabled": true,
-			"public_key": "3a0a3NoJ2LCoylMAdbBLCcDAJeUUtIDVSFuqRnAkETI",
-			"short_id": "72688401563b4055"
-						}
-					}
+		        "password": "BagyrKurmanj1998",
+		        "network": "udp",
+		        "tls": {},
         }
 ]
 }
