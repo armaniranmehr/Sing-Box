@@ -17,10 +17,6 @@
           "password": "21bf8ad1-f5f9-4191-9d7b-201e96e7bd15"
         }
       ],
-      "transport": {
-	"type": "grpc",
-	"permit_without_stream": false
-      }
       "tls": {
         "enabled": true,
         "server_name": "aws.amazon.com",
@@ -38,6 +34,10 @@
           ]
         }
       },
+      "transport": {
+        "type": "grpc",
+	"permit_without_stream": false
+     }
     }
   ],
   "outbounds": [
