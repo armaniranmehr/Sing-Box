@@ -55,7 +55,6 @@
 		        "zero_rtt_handshake": false,
 		        "heartbeat": "10s",
 		        "network": "udp",
-			
 			"tls": {
 				"enabled": true,
 				"alpn":["h3","spdy/3.1"],
