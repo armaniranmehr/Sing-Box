@@ -59,7 +59,7 @@
 			"tls": {
 				"enabled": true,
 				"alpn":["h3","spdy/3.1"],
-			},
+			}
         }
-]
+    ]
 }
