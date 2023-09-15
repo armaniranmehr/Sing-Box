@@ -20,7 +20,7 @@
       "tls": {
         "enabled": true,
         "server_name": "aws.amazon.com",
-	"alpn": ["h3","spdy/3.1"],
+	"alpn": ["h3", "spdy/3.1"],
         "reality": {
           "enabled": true,
           "handshake": {
