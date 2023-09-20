@@ -14,7 +14,7 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "21bf8ad1-f5f9-4191-9d7b-201e96e7bd15"
+          "password": "8888e0a9-3731-4302-abcd-091ed1faf8b6"
         }
       ],
       "tls": {
@@ -27,9 +27,9 @@
             "server": "aws.amazon.com",
             "server_port": 443
           },
-          "private_key": "8C0bhD64qI70WPOAVPB9gf2VR_8W2LBfCmZoobO2j2Q",
+          "private_key": "mOPcntEEW3kKv2bV7CriUCntnWaIQAri0YX4ndz2jnw",
           "short_id": [
-            "72688401563b4055"
+            "069c5fa05902862f"
           ]
         }
       },
