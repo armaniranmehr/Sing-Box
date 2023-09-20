@@ -55,7 +55,7 @@
 			},
 			"tls": {
 			"enabled": true,
-			"server_name": "aws.amazon.com",
+			"server_name": "ftp.debian.org",
 		        "utls": {
 			"enabled": true,
 			"fingerprint": "chrome"
