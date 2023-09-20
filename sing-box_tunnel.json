@@ -47,7 +47,7 @@
 			"tag": "trojan-out",
 			"server": "3.10.140.122",
 			"server_port": 443,
-			"password": "21bf8ad1-f5f9-4191-9d7b-201e96e7bd15",
+			"password": "8888e0a9-3731-4302-abcd-091ed1faf8b6",
 			"network": "tcp",
 		        "transport": {
 				"type": "grpc",
@@ -62,8 +62,8 @@
 					},
 			"reality": {
 			"enabled": true,
-			"public_key": "3a0a3NoJ2LCoylMAdbBLCcDAJeUUtIDVSFuqRnAkETI",
-			"short_id": "72688401563b4055"
+			"public_key": "pZaBpgVP0PiLIIZaEm9H7UnliuuS5EMexwVslcYEKiU",
+			"short_id": "069c5fa05902862f"
 						}
 					}
         }
