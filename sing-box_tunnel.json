@@ -12,7 +12,7 @@
             "listen_port": 443,
             "sniff": true,
             "sniff_override_destination": true,
-            "domain_strategy": "prefer_ipv6",
+            "domain_strategy": "ipv4_only",
             "users": [
                 {
                     "password": "f0b120d4-e714-4e81-ae41-6f970cd258cc"
@@ -45,7 +45,7 @@
         {
 			"type": "trojan",
 			"tag": "trojan-out",
-			"server": "3.10.140.122",
+			"server": "3.10.179.202",
 			"server_port": 443,
 			"password": "8888e0a9-3731-4302-abcd-091ed1faf8b6",
 			"network": "tcp",
