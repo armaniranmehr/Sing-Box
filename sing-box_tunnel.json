@@ -36,8 +36,7 @@
                 }
             },
 	    "transport": {
-	    "type": "grpc",
-	    "permit_without_stream": false
+	    "type": "grpc"
 	    }
         }
 ],
@@ -50,8 +49,7 @@
 			"password": "8888e0a9-3731-4302-abcd-091ed1faf8b6",
 			"network": "tcp",
 		        "transport": {
-				"type": "grpc",
-				"permit_without_stream": false
+				"type": "grpc"
 			},
 			"tls": {
 			"enabled": true,
