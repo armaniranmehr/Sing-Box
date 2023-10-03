@@ -34,8 +34,7 @@
         }
       },
       "transport": {
-        "type": "grpc",
-	"permit_without_stream": false
+        "type": "grpc"
      }
     }
   ],
