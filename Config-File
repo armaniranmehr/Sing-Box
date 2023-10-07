@@ -3,8 +3,18 @@
     "level": "info",
     "timestamp": true
   },
-  "inbounds": [
+  "route": {
+    "geoip": ,
+    "geosite": ,
+    "rules": [
     {
+     "network": [
+      "udp"
+     ],
+     "outbound": "block",
+     }
+      ]
+        }
       "type": "trojan",
       "tag": "trojan-in",
       "listen": "::",
