@@ -14,7 +14,9 @@
      "outbound": "block",
      }
       ]
-        }
+        },
+   "inbounds": [
+    {
       "type": "trojan",
       "tag": "trojan-in",
       "listen": "::",
