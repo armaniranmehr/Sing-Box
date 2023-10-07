@@ -4,8 +4,6 @@
     "timestamp": true
   },
   "route": {
-    "geoip": ,
-    "geosite": ,
     "rules": [
     {
      "network": [
