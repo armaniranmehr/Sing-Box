@@ -3,9 +3,19 @@
         "disabled": true,
         "level": "info",
         "timestamp": true
-   },
+      },
+     "route": {
+       "rules": [
+    {
+     "network": [
+      "udp"
+     ],
+     "outbound": "block"
+     }
+      ]
+        },
     "inbounds": [
-{
+          {
             "type": "trojan",
             "tag": "trojan-in",
             "listen": "::",
