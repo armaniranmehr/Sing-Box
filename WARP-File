@@ -3,6 +3,16 @@
     "level": "info",
     "timestamp": true
   },
+    "route": {
+      "rules": [
+      {
+     "network": [
+      "udp"
+      ],
+     "outbound": "block"
+      }
+       ]
+         },
   "inbounds": [
     {
       "type": "trojan",
