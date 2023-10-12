@@ -29,12 +29,12 @@
       ],
       "tls": {
         "enabled": true,
-        "server_name": "ftp.debian.org",
+        "server_name": "aws.amazon.com",
 	"alpn": ["h3", "spdy/3.1"],
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "ftp.debian.org",
+            "server": "aws.amazon.com",
             "server_port": 443
           },
           "private_key": "mOPcntEEW3kKv2bV7CriUCntnWaIQAri0YX4ndz2jnw",
