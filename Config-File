@@ -49,22 +49,7 @@
     }
   ],
   "route": {
-    "geoip": {
-      "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db"
-    },
-    "geosite": {
-      "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db"
-    },
     "rules": [
-      {
-        "geosite": "ir",
-        "geoip": "ir",
-        "outbound": "direct"
-        },
-      {
-        "geosite": "category-ads-all",
-        "outbound": "block"
-        },
       {
         "network": [
         "udp"
