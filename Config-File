@@ -4,31 +4,14 @@
     "timestamp": true
   },
   "route": {
-   "geoip": {
-      "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db",
-      "download_detour": "direct"
-    },
-    "geosite": {
-      "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db",
-      "download_detour": "direct"
-    },
     "rules": [
       {
-        "geosite": "ir",
-        "geoip": "ir",
-        "outbound": "direct"
-      },
-    {
-        "geosite": "category-ads-all",
-        "outbound": "block"
-      },
-    {
         "network": [
         "udp"
       ],
         "outbound": "block"
-         }
-      ]
+          }
+       ]
     },
    "inbounds": [
     {
@@ -74,5 +57,26 @@
       "type": "block",
       "tag": "block"
     }
-  ]
+  ],
+  "route": {
+   "geoip": {
+      "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db",
+      "download_detour": "direct"
+    },
+    "geosite": {
+      "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db",
+      "download_detour": "direct"
+    }, 
+    "rules": [
+      {
+        "geosite": "ir",
+        "geoip": "ir",
+        "outbound": "direct"
+      },
+      {
+        "geosite": "category-ads-all",
+        "outbound": "block"
+       }
+    ]
+  }
 }
