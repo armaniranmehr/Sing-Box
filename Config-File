@@ -3,16 +3,6 @@
     "level": "info",
     "timestamp": true
   },
-  "route": {
-    "rules": [
-      {
-        "network": [
-        "udp"
-      ],
-        "outbound": "block"
-          }
-       ]
-    },
    "inbounds": [
     {
       "type": "trojan",
@@ -64,15 +54,21 @@
     },
     "geosite": {
       "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db"
-    }, 
+    },
     "rules": [
       {
         "geosite": "ir",
         "geoip": "ir",
         "outbound": "direct"
-      },
+        },
       {
         "geosite": "category-ads-all",
+        "outbound": "block"
+        },
+      {
+        "network": [
+        "udp"
+        ],
         "outbound": "block"
       }
     ]
