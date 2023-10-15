@@ -58,41 +58,22 @@
       "tag": "block"
     }
   ],
-"route": {
-  "geoip": {
-      "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geoip.db"
-  },
-  "geosite": {
-    "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geosite.db"
-  },
-  "rules": [
-    {
-      "geosite": [
-        "category-ads-all",
-        "malware",
-        "phishing",
-        "cryptominers"
-      ],
-      "outbound": "block"
+  "route": {
+    "geoip": {
+      "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db"
+    },
+    "geosite": {
+      "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db"
+    }, 
+    "rules": [
+      {
+        "geosite": "ir",
+        "geoip": "ir",
+        "outbound": "direct"
       },
-    {
-      "geoip": [
-        "malware",
-        "phishing"
-      ],
-      "outbound": "block"
-      },
-    {
-      "geosite": "ir",
-      "outbound": "direct"
-      },
-    {
-      "geoip": [
-        "ir",
-        "private",
-        "arvancloud"
-      ],
-      "outbound": "direct"
+      {
+        "geosite": "category-ads-all",
+        "outbound": "block"
       }
     ]
   }
