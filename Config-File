@@ -33,28 +33,28 @@
           ]
         }
       },
-      "transport": {
-        "type": "grpc"
+   "transport": {
+     "type": "grpc"
       }
     }
   ],
-  "outbounds": [
-    {
-      "type": "direct",
-      "tag": "direct"
-      },
-    {
-      "type": "block",
-      "tag": "block"
-    }
-  ],
-  "route": {
-    "rules": [
-      {
-        "network": [
+   "outbounds": [
+     {
+       "type": "direct",
+       "tag": "direct"
+       },
+     {
+       "type": "block",
+       "tag": "block"
+     }
+   ],
+   "route": {
+     "rules": [
+       {
+       "network": [
         "udp"
-        ],
-        "outbound": "block"
+       ],
+       "outbound": "block"
       }
     ]
   }
