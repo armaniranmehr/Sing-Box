@@ -74,18 +74,18 @@
         "cryptominers"
       ],
       "outbound": "block"
-    },
+      },
     {
       "geoip": [
         "malware",
         "phishing"
       ],
       "outbound": "block"
-    },
+      },
     {
       "geosite": "ir",
       "outbound": "direct"
-    },
+      },
     {
       "geoip": [
         "ir",
