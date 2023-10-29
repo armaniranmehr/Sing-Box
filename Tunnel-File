@@ -55,7 +55,8 @@
 			"type": "trojan",
 			"tag": "trojan-out",
 			"server": "18.135.105.8",
-			"server_port": 443,
+			"server_port": 8443,
+                        "domain_strategy": "prefer_ipv6",
 			"password": "53a65ef6-7122-404b-a91c-bf30a48d8941",
 			"network": "tcp",
 		        "transport": {
