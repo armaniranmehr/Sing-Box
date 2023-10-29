@@ -14,7 +14,7 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "8888e0a9-3731-4302-abcd-091ed1faf8b6"
+          "password": "53a65ef6-7122-404b-a91c-bf30a48d8941"
         }
       ],
       "tls": {
@@ -27,9 +27,9 @@
             "server": "cdn.accuweather.com",
             "server_port": 443
           },
-          "private_key": "mOPcntEEW3kKv2bV7CriUCntnWaIQAri0YX4ndz2jnw",
+          "private_key": "UIzOj0SKDMlY2O6rHpq7VEPMpvRma-2cALXOsQJ-iHE",
           "short_id": [
-            "069c5fa05902862f"
+            "bbe17deb4a6e18dc"
           ]
         }
       },
