@@ -54,9 +54,9 @@
         {
 			"type": "trojan",
 			"tag": "trojan-out",
-			"server": "3.10.179.202",
+			"server": "18.135.105.8",
 			"server_port": 443,
-			"password": "8888e0a9-3731-4302-abcd-091ed1faf8b6",
+			"password": "53a65ef6-7122-404b-a91c-bf30a48d8941",
 			"network": "tcp",
 		        "transport": {
 				"type": "grpc"
@@ -70,8 +70,8 @@
 					},
 			"reality": {
 			"enabled": true,
-			"public_key": "pZaBpgVP0PiLIIZaEm9H7UnliuuS5EMexwVslcYEKiU",
-			"short_id": "069c5fa05902862f"
+			"public_key": "bYc7QOufpqerb4_XZrNQSTdcmHQX_G8dQPdpDw0Icj0",
+			"short_id": "bbe17deb4a6e18dc"
 						}
 					}
         }
