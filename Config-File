@@ -19,6 +19,7 @@
       ],
       "tls": {
         "enabled": true,
+        "alpn": ["h2", "http/1.1"],
         "server_name": "cdn.accuweather.com",
         "reality": {
           "enabled": true,
