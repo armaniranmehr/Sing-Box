@@ -20,7 +20,6 @@
       "tls": {
         "enabled": true,
         "server_name": "cdn.accuweather.com",
-        "alpn": "h2",
         "reality": {
           "enabled": true,
           "handshake": {
