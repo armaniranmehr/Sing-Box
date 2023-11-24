@@ -20,7 +20,6 @@
       "tls": {
         "enabled": true,
         "alpn": [
-          "http/1.1",
           "h2"
         ],
         "server_name": "cdn.accuweather.com",
