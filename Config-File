@@ -5,17 +5,16 @@
   },
    "inbounds": [
     {
-      "type": "vless",
-      "tag": "vless-in",
+      "type": "trojan",
+      "tag": "trojan-in",
       "listen": "::",
-      "listen_port": 443,
+      "listen_port": 4443,
       "sniff": true,
       "sniff_override_destination": true,
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "uuid": "f6f32712-fe55-4cd2-aca2-785e9c148064",
-          "flow": ""
+          "password": "f6f32712-fe55-4cd2-aca2-785e9c148064"
         }
       ],
       "tls": {
