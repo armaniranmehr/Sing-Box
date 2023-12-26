@@ -27,7 +27,7 @@
                 "tehranwest1.irancell.ir"
         ],
         "path": "/speedtest",
-        "method": "",
+        "method": "GET",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       }
