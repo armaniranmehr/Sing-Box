@@ -24,7 +24,7 @@
       "transport": {
         "type": "http",
         "host": [
-                "tehranwest1.irancell.ir"
+                "mashhad1.irancell.ir,shiraz1.irancell.ir,tabriz1.irancell.ir,speedtest1.irancell.ir,ahvaz1.irancell.ir,esfahan1.irancell.ir"
         ],
         "path": "/speedtest",
         "method": "GET",
