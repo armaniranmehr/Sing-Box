@@ -28,6 +28,17 @@
         ],
         "path": "/speedtest",
         "method": "GET",
+        "headers": {
+          "Connection": [
+            "Keep-Alive"
+          ],
+          "Content-Length": [
+            "109"
+          ],
+          "Content-Type": [
+            "text/html"
+          ]
+        },
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       }
