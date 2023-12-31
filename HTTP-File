@@ -24,9 +24,12 @@
       "transport": {
         "type": "http",
         "host": [
-                "tehranwest1.irancell.ir"
+            "tehranwest1.irancell.ir"
         ],
-        "path": "/download",
+        "path": [
+            "/download",
+            "/upload"
+        ],
         "method": "GET",
         "headers": {
           "Connection": [
@@ -38,6 +41,9 @@
           "Content-Type": [
             "application/octet-stream"
           ]
+          "reason": "OK",
+          "status": "200",
+          "version": "1.1"
         },
         "idle_timeout": "15s",
         "ping_timeout": "15s"
