@@ -26,17 +26,17 @@
         "host": [
                 "tehranwest1.irancell.ir"
         ],
-        "path": "/speedtest",
+        "path": "/download",
         "method": "GET",
         "headers": {
           "Connection": [
             "Keep-Alive"
           ],
           "Content-Length": [
-            "109"
+            "10737418240"
           ],
           "Content-Type": [
-            "text/html"
+            "application/octet-stream"
           ]
         },
         "idle_timeout": "15s",
