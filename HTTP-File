@@ -26,10 +26,7 @@
         "host": [
             "tehranwest1.irancell.ir"
         ],
-        "path": [
-            "/download",
-            "/upload"
-        ],
+        "path": "/download",
         "method": "GET",
         "headers": {
           "Connection": [
@@ -48,7 +45,6 @@
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       }
-     "tag": "inbound-8080"
     }
   ],
    "outbounds": [
