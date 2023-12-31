@@ -48,6 +48,7 @@
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       }
+     "tag": "inbound-8080"
     }
   ],
    "outbounds": [
