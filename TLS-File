@@ -8,24 +8,31 @@
       "type": "trojan",
       "tag": "trojan-in",
       "listen": "::",
-      "listen_port": 8443,
+      "listen_port": 2053,
       "sniff": true,
       "sniff_override_destination": true,
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "4MnaZ8RvZBHxIpUV97jsqnOmR0W3SzlIbCyUMyNpyXU="
+          "password": "6de5d2c2-9acb-447c-9fbc-23bd60f57d41"
         }
       ],
       "tls": {
         "enabled": true,
+        "server_name": "tehranwest1.irancell.ir",
         "alpn": [
           "h3"
         ],
         "min_version": "1.2",
         "max_version": "1.3",
         "certificate_path": "/root/ca.crt",
-        "key_path": "/root/ca.key"
+        "key_path": "/root/ca.key",
+        "reality": {
+          "enabled": false,
+          "handshake": {
+            "server": "tehranwest1.irancell.ir",
+            "server_port": 8080
+        }
       },
       "transport": {
         "type": "grpc",
