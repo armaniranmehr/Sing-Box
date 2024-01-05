@@ -19,21 +19,14 @@
       ],
       "tls": {
         "enabled": true,
-        "server_name": "tehranwest1.irancell.ir",
+        "server_name": "tehranwest1.irancell.ir:8080/",
         "alpn": [
           "h3"
         ],
         "min_version": "1.2",
         "max_version": "1.3",
         "certificate_path": "/root/ca.crt",
-        "key_path": "/root/ca.key",
-        "reality": {
-          "enabled": false,
-          "handshake": {
-            "server": "tehranwest1.irancell.ir",
-            "server_port": 8080
-          }
-        }
+        "key_path": "/root/ca.key"
       },
       "transport": {
         "type": "grpc",
