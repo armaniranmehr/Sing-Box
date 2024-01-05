@@ -32,6 +32,7 @@
           "handshake": {
             "server": "tehranwest1.irancell.ir",
             "server_port": 8080
+          }
         }
       },
       "transport": {
