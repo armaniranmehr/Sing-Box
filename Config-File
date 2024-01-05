@@ -8,13 +8,13 @@
       "type": "trojan",
       "tag": "trojan-in",
       "listen": "::",
-      "listen_port": 8443,
+      "listen_port": 2053,
       "sniff": true,
       "sniff_override_destination": true,
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "f6f32712-fe55-4cd2-aca2-785e9c148064"
+          "password": "6de5d2c2-9acb-447c-9fbc-23bd60f57d41"
         }
       ],
       "tls": {
@@ -31,9 +31,9 @@
             "server": "myshopify.com",
             "server_port": 443
           },
-          "private_key": "qI1x2ttrKL5fWRHyi27TZ17RSHBYLQL8qLJRXeHNi0g",
+          "private_key": "WFLVCSY--Db96DzQ1jG0qUFqyiVuCa-tQquywAzxH3Y",
           "short_id": [
-            "78eb7a502faa9547"
+            "f9feb8babe984cc4"
           ]
         }
       },
