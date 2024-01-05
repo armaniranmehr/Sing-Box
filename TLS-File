@@ -19,7 +19,6 @@
       ],
       "tls": {
         "enabled": true,
-        "server_name": "tehranwest1.irancell.ir",
         "alpn": [
           "h3"
         ],
