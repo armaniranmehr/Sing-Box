@@ -19,7 +19,7 @@
       ],
       "tls": {
         "enabled": true,
-        "server_name": "tehranwest1.irancell.ir",
+        "server_name": "tehranwest3.irancell.ir",
         "alpn": [
           "h3"
         ],
@@ -28,7 +28,7 @@
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "tehranwest1.irancell.ir",
+            "server": "tehranwest3.irancell.ir",
             "server_port": 8080
           },
           "private_key": "WFLVCSY--Db96DzQ1jG0qUFqyiVuCa-tQquywAzxH3Y",
