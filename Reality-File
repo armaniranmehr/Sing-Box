@@ -5,8 +5,8 @@
   },
    "inbounds": [
     {
-      "type": "trojan",
-      "tag": "trojan-in",
+      "type": "vmess",
+      "tag": "vmess-in",
       "listen": "::",
       "listen_port": 2053,
       "sniff": true,
@@ -14,7 +14,8 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "6de5d2c2-9acb-447c-9fbc-23bd60f57d41"
+          "uuid": "11d7e900-0a0a-4430-888d-b8876133b959",
+          "alterId": 0
         }
       ],
       "tls": {
@@ -31,9 +32,9 @@
             "server": "tehranwest1.irancell.ir",
             "server_port": 8080
           },
-          "private_key": "WFLVCSY--Db96DzQ1jG0qUFqyiVuCa-tQquywAzxH3Y",
+          "private_key": "EHBhYvSIi1DQuwTyZkEI68KME0xPwJi1qS0NHEaUFW0",
           "short_id": [
-            "f9feb8babe984cc4"
+            "484f0200332a1830"
           ]
         }
       },
