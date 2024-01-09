@@ -11,10 +11,10 @@
       "listen_port": 2053,
       "sniff": true,
       "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "11d7e900-0a0a-4430-888d-b8876133b959",
+          "uuid": "7bf740a2-64ee-45b4-be22-eaf6e1bae7ad",
           "alterId": 0
         }
       ],
@@ -32,9 +32,9 @@
             "server": "tehranwest1.irancell.ir",
             "server_port": 8080
           },
-          "private_key": "EHBhYvSIi1DQuwTyZkEI68KME0xPwJi1qS0NHEaUFW0",
+          "private_key": "eOjxmkMMQjuN6TayKQJ_P5lXDA1z3E2Iad78L3lmqXA",
           "short_id": [
-            "484f0200332a1830"
+            "dbecb889b2fb7f83"
           ]
         }
       },
