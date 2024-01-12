@@ -14,7 +14,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "password": "7bf740a2-64ee-45b4-be22-eaf6e1bae7ad"
+          "password": "7de688a6-fc1c-4a7a-b1b7-61b3716f3a7c"
         }
       ],
       "tls": {
@@ -31,9 +31,9 @@
             "server": "tehranwest1.irancell.ir",
             "server_port": 8080
           },
-          "private_key": "eOjxmkMMQjuN6TayKQJ_P5lXDA1z3E2Iad78L3lmqXA",
+          "private_key": "sFllDqBtEboZBDhTM9F1xHILRLTZQ8E-c_KMvE6y0kk",
           "short_id": [
-            "dbecb889b2fb7f83"
+            "74dde2a09f66edff"
           ]
         }
       },
