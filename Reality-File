@@ -19,7 +19,7 @@
       ],
       "tls": {
         "enabled": true,
-        "server_name": "tehranwest1.irancell.ir",
+        "server_name": "ookla-tehran.tci.ir",
         "alpn": [
           "h3"
         ],
@@ -28,7 +28,7 @@
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "tehranwest1.irancell.ir",
+            "server": "ookla-tehran.tci.ir",
             "server_port": 8080
           },
           "private_key": "ENmQcG0ndE17h62rbK9FPSugNcm2c8XdPkMz_hBzZm4",
