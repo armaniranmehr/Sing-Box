@@ -40,7 +40,7 @@
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
-        "permit_without_stream": true
+        "permit_without_stream": false
       }
     }
   ],
