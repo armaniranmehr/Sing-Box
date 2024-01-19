@@ -34,7 +34,7 @@
           "Transfer-Encoding": ["chunked"],
           "Connection": ["keep-alive"],
           "Pragma": "no-cache"
-        },
+        }
       }
     }
   ],
