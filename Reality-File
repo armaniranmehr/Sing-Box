@@ -14,12 +14,12 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "7de688a6-fc1c-4a7a-b1b7-61b3716f3a7c"
+          "password": "61ebc925-9544-4953-b009-b3fc3c0f2b13"
         }
       ],
       "tls": {
         "enabled": true,
-        "server_name": "ookla-tehran.tci.ir",
+        "server_name": "rhaspd2.mci.ir",
         "alpn": [
           "h3"
         ],
@@ -28,12 +28,12 @@
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "ookla-tehran.tci.ir",
+            "server": "rhaspd2.mci.ir",
             "server_port": 8080
           },
-          "private_key": "0EezocRAlVU2mK9c3ShlNr1GtHh5hQIIAst5D9f9g0o",
+          "private_key": "yHwORyslnqy5EjCwSO45taGlBrvzCLkLtAAhBjQ_EHE",
           "short_id": [
-            "8b9e3872e0b91880"
+            "540dbacbd4487af5"
           ]
         }
       },
