@@ -26,9 +26,6 @@
         "path": "/download",
         "method": "GET",
         "headers": {
-          "version": "1.1",
-          "status": "200",
-          "reason": "OK",
           "Content-Type": ["text/html"],
           "Content-Length": ["109"],
           "Transfer-Encoding": ["chunked"],
