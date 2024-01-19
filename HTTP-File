@@ -22,25 +22,19 @@
       },
       "transport": {
         "type": "http",
-        "host": [
-            "rhaspd2.mci.ir"
-        ],
+        "host": ["rhaspd2.mci.ir"],
         "path": "/download",
         "method": "GET",
         "headers": {
-          "Connection": [
-            "Keep-Alive"
-          ],
-          "Content-Length": [
-            "109"
-          ],
-          "Content-Type": [
-            "text/html"
-          ],
-          "reason": "OK",
+          "version": "1.1",
           "status": "200",
-          "version": "1.1"
-        }
+          "reason": "OK",
+          "Content-Type": ["text/html"],
+          "Content-Length": ["109"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Pragma": "no-cache"
+        },
       }
     }
   ],
