@@ -27,8 +27,8 @@
         "method": "GET",
         "headers": {
           "Connection": ["keep-alive"],
-          "Content-Type": ["text/html"],
-          "Content-Length": ["109"]
+          "Content-Length": ["109"],
+          "Content-Type": ["text/html"]
         }
       }
     }
