@@ -26,11 +26,9 @@
         "path": "/download",
         "method": "GET",
         "headers": {
-          "Content-Type": ["text/html"],
-          "Content-Length": ["109"],
-          "Transfer-Encoding": ["chunked"],
           "Connection": ["keep-alive"],
-          "Pragma": "no-cache"
+          "Content-Type": ["text/html"],
+          "Content-Length": ["109"]
         }
       }
     }
