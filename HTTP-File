@@ -26,7 +26,7 @@
         "path": "/download",
         "method": "GET",
         "headers": {
-          "Connection": ["keep-alive"],
+          "Connection": ["Keep-Alive"],
           "Content-Length": ["109"],
           "Content-Type": ["text/html"]
         }
