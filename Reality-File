@@ -11,7 +11,7 @@
       "listen_port": 443,
       "sniff": true,
       "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
           "password": "61ebc925-9544-4953-b009-b3fc3c0f2b13"
