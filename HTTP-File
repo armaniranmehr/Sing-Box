@@ -22,7 +22,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["rhaspd2.mci.ir"],
+        "host": ["rhaspd2.mci.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
