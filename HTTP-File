@@ -46,9 +46,7 @@
    "route": {
      "rules": [
        {
-       "network": [
-        "udp"
-       ],
+       "network": ["udp"],
        "outbound": "block"
      }
    ]
