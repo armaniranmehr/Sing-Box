@@ -29,7 +29,7 @@
           "Cache-Control": ["no-store"],
           "Connection": ["keep-alive"],
           "Content-Length": ["109"],
-          "Content-Security-Policy": ["default-src 'none'"],
+          "Content-Security-Policy": ["default-src 'none'; frame-ancestors 'none'; script-src 'none'; object-src 'none';  connect-src *.ookla.com *.speedtest.net *.mci.ir *.speedtestcustom.com"],
           "Content-Type": ["text/html"],
           "Status": ["200 OK"],
           "X-Content-Type-Options": ["nosniff"],
