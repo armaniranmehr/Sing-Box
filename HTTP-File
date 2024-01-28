@@ -11,9 +11,8 @@
       "listen_port": 443,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "sniff": true,
+      "sniff": false,
       "sniff_override_destination": false,
-      "sniff_timeout": "300ms",
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
