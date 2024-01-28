@@ -10,7 +10,7 @@
       "listen": "::",
       "listen_port": 443,
       "sniff": true,
-      "sniff_override_destination": true,
+      "sniff_override_destination": false,
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
@@ -26,9 +26,23 @@
         "path": "/download",
         "method": "GET",
         "headers": {
+          "Cache-Control": ["no-store"],
           "Connection": ["Keep-Alive"],
           "Content-Length": ["109"],
-          "Content-Type": ["text/html"]
+          "Content-Security-Policy":
+            ["default-src 'none';
+             frame-ancestors 'none';
+             script-src 'none';
+             object-src 'none';
+             connect-src
+              *.ookla.com
+              *.speedtest.net
+              *.mci.ir
+              *.speedtestcustom.com"],
+          "Content-Type": ["text/html"],
+          "Status": ["200 OK"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Frame-Options": ["DENY"]
         }
       }
     }
