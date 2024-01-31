@@ -25,14 +25,14 @@
       },
       "transport": {
         "type": "http",
-        "host": ["rhaspd2.mci.ir:8080"],
+        "host": ["172.80.253.86:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
           "Cache-Control": ["no-store"],
           "Connection": ["keep-alive"],
-          "Content-Length": ["109"],
-          "Content-Type": ["text/html"]
+          "Content-Length": ["0"],
+          "Content-Type": ["application/octet-stream"]
         }
       }
     }
