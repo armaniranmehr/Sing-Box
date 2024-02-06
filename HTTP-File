@@ -14,7 +14,7 @@
       "sniff": true,
       "sniff_override_destination": true,
       "sniff_timeout": "300ms",
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
           "password": "a9bc697a-86e9-49b0-8612-bff5481c74ca"
