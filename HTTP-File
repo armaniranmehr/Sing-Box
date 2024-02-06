@@ -8,7 +8,7 @@
       "type": "trojan",
       "tag": "trojan-in",
       "listen": "::",
-      "listen_port": 443,
+      "listen_port": 8443,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "sniff": true,
@@ -17,7 +17,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "password": "a9bc697a-86e9-49b0-8612-bff5481c74ca"
+          "password": "6394e509-bcfd-4bbf-a0c9-78c96c9d9fbe"
         }
       ],
       "tls": {
