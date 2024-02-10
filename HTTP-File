@@ -30,7 +30,7 @@
         "method": "GET",
         "headers": {
           "Cache-Control": ["no-store"],
-          "Connection": ["Keep-Alive"],
+          "Connection": ["keep-alive"],
           "Content-Length": ["109"],
           "Content-Type": ["text/html"]
         }
