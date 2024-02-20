@@ -5,8 +5,8 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "trojan",
+      "tag": "trojan-in",
       "listen": "::",
       "listen_port": 8443,
       "tcp_fast_open": true,
@@ -17,20 +17,19 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "f3ef17d0-55f0-4eea-bf88-e84475b2b344",
-          "alterId": 1
+          "password": "f3ef17d0-55f0-4eea-bf88-e84475b2b344"
         }
       ],
       "tls": {
         "enabled": true,
-        "server_name": "78.39.161.174",
+        "server_name": "ookla-tehran.tci.ir",
         "alpn": ["h3"],
         "min_version": "1.2",
         "max_version": "1.3",
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "78.39.161.174",
+            "server": "ookla-tehran.tci.ir",
             "server_port": 8080
           },
           "private_key": "gIaG8T7dBKlHQv2gZhM3zUAkjfOwFRaRRqqgh86X3mQ",
