@@ -5,37 +5,43 @@
   },
    "inbounds": [
     {
-      "type": "trojan",
-      "tag": "trojan-in",
+      "type": "vmess",
+      "tag": "vmess-in",
       "listen": "::",
-      "listen_port": 443,
+      "listen_port": 8443,
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
       "sniff": true,
       "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv6",
+      "sniff_timeout": "300ms",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
-          "password": "61ebc925-9544-4953-b009-b3fc3c0f2b13"
+          "uuid": "f3ef17d0-55f0-4eea-bf88-e84475b2b344",
+          "alterId": 1
         }
       ],
       "tls": {
         "enabled": true,
-        "server_name": "rhaspd2.mci.ir",
+        "server_name": "78.39.161.174",
         "alpn": ["h3"],
         "min_version": "1.2",
         "max_version": "1.3",
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "rhaspd2.mci.ir",
+            "server": "78.39.161.174",
             "server_port": 8080
           },
-          "private_key": "yHwORyslnqy5EjCwSO45taGlBrvzCLkLtAAhBjQ_EHE",
-          "short_id": ["540dbacbd4487af5"]
+          "private_key": "gIaG8T7dBKlHQv2gZhM3zUAkjfOwFRaRRqqgh86X3mQ",
+          "short_id": ["87bc8421b45d7f8d"]
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
         "permit_without_stream": false
       }
     }
