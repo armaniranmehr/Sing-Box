@@ -5,8 +5,8 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "trojan",
+      "tag": "trojan-in",
       "listen": "::",
       "listen_port": 8443,
       "tcp_fast_open": true,
@@ -17,8 +17,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "ce2c2c66-8257-4af2-990b-d6040cb92974",
-          "alterId": 1
+          "password": "ce2c2c66-8257-4af2-990b-d6040cb92974"
         }
       ],
       "tls": {
@@ -26,7 +25,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["78.39.161.174:8080"],
+        "host": ["ookla-tehran.tci.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
