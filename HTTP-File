@@ -25,7 +25,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["ookla-tehran.tci.ir:8080"],
+        "host": ["rhaspd2.mci.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
