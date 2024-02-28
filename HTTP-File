@@ -31,8 +31,8 @@
         "headers": {
           "Cache-Control": ["no-store"],
           "Connection": ["keep-alive"],
-          "Content-Length": ["0"],
-          "Content-Type": ["application/octet-stream"]
+          "Content-Length": ["109"],
+          "Content-Type": ["text/html"]
         }
       }
     }
