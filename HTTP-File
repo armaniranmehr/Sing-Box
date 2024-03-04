@@ -30,8 +30,8 @@
         "method": "GET",
         "headers": {
           "Connection": ["Keep-Alive"],
-          "Content-Length": ["109"],
-          "Content-Type": ["text/html"]
+          "Content-Type": ["text/html"],
+          "Content-Length": ["109"]
         }
       }
     }
