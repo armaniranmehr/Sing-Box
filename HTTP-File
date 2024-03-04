@@ -17,7 +17,7 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "57019092-2670-4e13-bb9d-abe1f201712f"
+          "password": "a5a6760b-e226-496b-a35d-e32f21464a1c"
         }
       ],
       "tls": {
@@ -25,12 +25,11 @@
       },
       "transport": {
         "type": "http",
-        "host": ["rhaspd2.mci.ir:8080"],
+        "host": ["speedtest.telecom.tm:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
-          "Cache-Control": ["no-store"],
-          "Connection": ["keep-alive"],
+          "Connection": ["Keep-Alive"],
           "Content-Length": ["109"],
           "Content-Type": ["text/html"]
         }
