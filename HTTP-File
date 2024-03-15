@@ -17,7 +17,7 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "uuid": "3cfd4e8e-fc57-4130-b2d6-ffecc7a5c73a",
+          "uuid": "201c30ea-288f-42b8-8172-357d5c6e8868",
           "alterId": 1
         }
       ],
@@ -26,13 +26,14 @@
       },
       "transport": {
         "type": "http",
-        "host": ["speedtest.telecom.tm:8080"],
+        "host": ["rhaspd2.mci.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
           "Connection": ["Keep-Alive"],
-          "Content-Type": ["text/html"],
-          "Content-Length": ["109"]
+          "Cache-Control": ["no-store"],
+          "Content-Type": ["application/octet-stream"],
+          "Content-Length": ["0"]
         }
       }
     }
