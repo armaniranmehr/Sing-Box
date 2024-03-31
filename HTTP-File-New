@@ -21,20 +21,7 @@
         }
       ],
       "tls": {
-        "enabled": true,
-        "server_name": "rhaspd2.mci.ir",
-        "alpn": ["http/1.1","h2"],
-        "min_version": "1.2",
-        "max_version": "1.3",
-        "reality": {
-          "enabled": true,
-          "handshake": {
-            "server": "rhaspd2.mci.ir",
-            "server_port": 8080
-          },
-          "private_key": "aMLyQ9jUKMfPhbYA-uQ0FJJ9cZ--9yX02XFHhzgZN0c",
-          "short_id": ["5345137d6fca313d"]
-        }
+        "enabled": false
       },
       "transport": {
         "type": "grpc",
@@ -47,20 +34,17 @@
   ],
    "outbounds": [
      {
-       "type": "direct",
-       "tag": "direct"
-       },
-     {
-       "type": "block",
-       "tag": "block"
-     }
-  ],
-   "route": {
-     "rules": [
-       {
-       "network": ["udp"],
-       "outbound": "block"
+       "type": "http",
+       "tag": "http-out",
+       "server": "rhaspd2.mci.ir",
+       "server_port": 8080,
+       "path": "/download",
+       "headers": {
+          "Connection": ["keep-alive"],
+          "Cache-Control": ["no-store"],
+          "Content-Type": ["application/octet-stream"],
+          "Content-Length": ["0"]
+        }
      }
    ]
-  }
-}
+ }
