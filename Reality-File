@@ -17,7 +17,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "password": "ac4ac11b-1671-4e3f-9d21-cf60d39511d6"
+          "password": "474b1141-4a39-49d4-a158-e0e1bce6a0cf"
         }
       ],
       "tls": {
@@ -32,8 +32,8 @@
             "server": "ookla-tehran.tci.ir",
             "server_port": 8080
           },
-          "private_key": "aMLyQ9jUKMfPhbYA-uQ0FJJ9cZ--9yX02XFHhzgZN0c",
-          "short_id": ["5345137d6fca313d"]
+          "private_key": "IIaDeZRb6K8x5FLII2f-WQHAEqW6nJYUEQ62mM6-3Uo",
+          "short_id": ["5933f9f67a91b2af"]
         }
       },
       "transport": {
