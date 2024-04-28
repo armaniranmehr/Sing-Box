@@ -5,29 +5,30 @@
   },
   "inbounds": [
     {
-      "type": "tuic",
-      "tag": "tuic-in",
+      "type": "hysteria2",
+      "tag": "hy2-in",
       "listen": "::",
-      "listen_port": 8443,
-      "sniff": true,
-      "sniff_override_destination": true,
+      "listen_port": 5060,
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
       "domain_strategy": "prefer_ipv6",
+      "obfs": {
+        "type": "salamander",
+        "password": "WsuhgjDhyJAMTqRCdEpjtJ2Obo/46awpRoTnjFz3Otc="
+      },
       "users": [
         {
-          "uuid": "44b6046e-7972-460f-922a-18613be2d45c",
           "password": "8pdwLppJvy+6HicULsqYfhyLagVYkOHoeoe+ptRzzzc="
         }
       ],
-      "congestion_control": "bbr",
-      "auth_timeout": "3s",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
+      "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
-        "alpn": ["h3"],
         "certificate_path": "/root/ca.crt",
         "key_path": "/root/ca.key"
-      }
+      },
+      "brutal_debug": false
     }
   ],
   "outbounds": [
