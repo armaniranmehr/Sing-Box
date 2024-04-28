@@ -14,26 +14,26 @@
       "sniff": true,
       "sniff_override_destination": true,
       "sniff_timeout": "300ms",
-      "domain_strategy": "ipv4_only",
+      "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "474b1141-4a39-49d4-a158-e0e1bce6a0cf"
+          "password": "NQPqkEBu38SU62jov+2ULaVLGYRretbvJQvOj5OBtu4="
         }
       ],
       "tls": {
         "enabled": true,
-        "server_name": "ookla-tehran.tci.ir",
+        "server_name": "speedtest1.pishgaman.net",
         "alpn": ["http/1.1","h2"],
         "min_version": "1.2",
         "max_version": "1.3",
         "reality": {
           "enabled": true,
           "handshake": {
-            "server": "ookla-tehran.tci.ir",
+            "server": "speedtest1.pishgaman.net",
             "server_port": 8080
           },
-          "private_key": "IIaDeZRb6K8x5FLII2f-WQHAEqW6nJYUEQ62mM6-3Uo",
-          "short_id": ["5933f9f67a91b2af"]
+          "private_key": "INieFzp2tWSuSe92tZvXdHcCdkyDYEUzeo0KVi2O9Es",
+          "short_id": ["b2b070336d4b1880"]
         }
       },
       "transport": {
