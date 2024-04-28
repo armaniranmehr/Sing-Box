@@ -8,7 +8,7 @@
       "type": "vmess",
       "tag": "vmess-in",
       "listen": "::",
-      "listen_port": 8443,
+      "listen_port": 5060,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "sniff": true,
@@ -26,14 +26,14 @@
       },
       "transport": {
         "type": "http",
-        "host": ["rhaspd2.mci.ir:8080"],
-        "path": "/download",
+        "host": ["tehranwest1.irancell.ir:5060"],
+        "path": "/download,/hello,/ping,/uptime",
         "method": "GET",
         "headers": {
-          "Connection": ["Keep-Alive"],
+          "Connection": ["keep-alive"],
           "Cache-Control": ["no-store"],
-          "Content-Type": ["application/octet-stream"],
-          "Content-Length": ["0"]
+          "Content-Type": ["text/html"],
+          "Content-Length": ["109"]
         }
       }
     }
