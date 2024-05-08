@@ -26,6 +26,7 @@
       "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
+        "server_name": "bing.com",
         "certificate_path": "/root/ca.crt",
         "key_path": "/root/ca.key"
       },
