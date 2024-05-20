@@ -12,7 +12,7 @@
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
-      "udp_timeout": "1m",
+      "udp_timeout": "5m",
       "domain_strategy": "prefer_ipv6",
       "obfs": {
         "type": "salamander",
