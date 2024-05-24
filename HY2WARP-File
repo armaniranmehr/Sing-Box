@@ -14,6 +14,10 @@
       "udp_fragment": true,
       "udp_timeout": "1m",
       "domain_strategy": "prefer_ipv6",
+      "obfs": {
+        "type": "salamander",
+        "password": "QL0YgrOsCMoFB3gvCGf8lBV2SS66dSVS09s+bEO8qXk="
+      },
       "users": [
         {
           "password": "B5CJ1u0ljsnTaZyf3A/wkhhEsrzCvHLosMBeYs+4d48="
