@@ -38,8 +38,8 @@
     {
       "type": "wireguard",
       "tag": "wireguard-out",
-      "server": "[2606:4700:d0::8f8c:1630:4f06:bf6d]",
-      "server_port": 7559,
+      "server": "162.159.192.183",
+      "server_port": 4198,
       "system_interface": false,
       "interface_name": "wg0",
       "local_address": [
