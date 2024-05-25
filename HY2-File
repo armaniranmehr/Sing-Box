@@ -8,12 +8,12 @@
       "type": "hysteria2",
       "tag": "hy2-in",
       "listen": "::",
-      "listen_port": 5060,
+      "listen_port": 8080,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
       "udp_timeout": "1m",
-      "domain_strategy": "ipv4_only",
+      "domain_strategy": "prefer_ipv6",
       "obfs": {
         "type": "salamander",
         "password": "WsuhgjDhyJAMTqRCdEpjtJ2Obo/46awpRoTnjFz3Otc="
@@ -26,7 +26,8 @@
       "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "alpn": ["h3"],
+        "min_version": "1.3",
         "certificate_path": "/root/ca.crt",
         "key_path": "/root/ca.key"
       },
@@ -47,6 +48,7 @@
      "rules": [
        {
        "network": ["udp"],
+       "port": ["443"],
        "outbound": "block"
      }
    ]
