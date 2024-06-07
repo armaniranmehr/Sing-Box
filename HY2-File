@@ -13,7 +13,7 @@
       "tcp_multi_path": true,
       "udp_fragment": true,
       "udp_timeout": "1m",
-      "domain_strategy": "ipv4_only",
+      "domain_strategy": "prefer_ipv6",
       "obfs": {
         "type": "salamander",
         "password": "WsuhgjDhyJAMTqRCdEpjtJ2Obo/46awpRoTnjFz3Otc="
@@ -48,7 +48,6 @@
      "rules": [
        {
        "network": ["udp"],
-       "port": [443],
        "outbound": "block"
      }
    ]
