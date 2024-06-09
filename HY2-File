@@ -13,7 +13,7 @@
       "tcp_multi_path": true,
       "udp_fragment": true,
       "udp_timeout": "1m",
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "obfs": {
         "type": "salamander",
         "password": "WsuhgjDhyJAMTqRCdEpjtJ2Obo/46awpRoTnjFz3Otc="
