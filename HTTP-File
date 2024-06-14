@@ -23,11 +23,11 @@
       },
       "transport": {
         "type": "http",
-        "host": ["5.112.0.20:8080"],
+        "host": ["sptest1.sindad.cloud:5060"],
         "path": "/download",
         "method": "GET",
         "headers": {
-          "Connection": ["keep-alive"],
+          "Connection": ["Keep-Alive"],
           "Cache-Control": ["no-store"],
           "Content-Type": ["application/octet-stream"],
           "Content-Length": ["0"]
