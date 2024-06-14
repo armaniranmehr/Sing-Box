@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["sptest1.sindad.cloud:5060"],
+        "host": ["5.112.0.20:5060"],
         "path": "/download",
         "method": "GET",
         "headers": {
