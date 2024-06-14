@@ -8,13 +8,10 @@
       "type": "vmess",
       "tag": "vmess-in",
       "listen": "::",
-      "listen_port": 5060,
+      "listen_port": 8080,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "sniff": true,
-      "sniff_override_destination": false,
-      "sniff_timeout": "300ms",
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
           "uuid": "201c30ea-288f-42b8-8172-357d5c6e8868",
@@ -26,14 +23,14 @@
       },
       "transport": {
         "type": "http",
-        "host": ["tehranwest1.irancell.ir:5060"],
-        "path": "/download,/hello,/ping,/uptime",
+        "host": ["5.112.0.20:8080"],
+        "path": "/download",
         "method": "GET",
         "headers": {
           "Connection": ["keep-alive"],
           "Cache-Control": ["no-store"],
-          "Content-Type": ["text/html"],
-          "Content-Length": ["109"]
+          "Content-Type": ["application/octet-stream"],
+          "Content-Length": ["0"]
         }
       }
     }
