@@ -11,6 +11,8 @@
       "listen_port": 5060,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
+      "udp_fragment": true,
+      "udp_timeout": "60s",
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
