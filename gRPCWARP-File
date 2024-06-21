@@ -25,20 +25,21 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "TunService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s",
+        "service_name": "36b236e492aed61B",
+        "idle_timeout": "20s",
+        "ping_timeout": "20s",
         "permit_without_stream": false
       }
     }
   ],
-  "outbounds": [
+   "outbounds": [
     {
       "type": "wireguard",
       "tag": "wireguard-out",
       "server": "engage.cloudflareclient.com",
       "server_port": 2408,
       "system_interface": false,
+      "gso": false,
       "interface_name": "wg0",
       "local_address": [
         "172.16.0.2/32",
@@ -49,7 +50,8 @@
       "pre_shared_key": "",
       "reserved": "mlzv",
       "workers": 8,
-      "mtu": 1280
+      "mtu": 1280,
+      "network": "udp"
            }
      ]
 }
