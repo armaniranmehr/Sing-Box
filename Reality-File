@@ -39,8 +39,8 @@
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s",
+        "idle_timeout": "20s",
+        "ping_timeout": "20s",
         "permit_without_stream": false
       }
     }
