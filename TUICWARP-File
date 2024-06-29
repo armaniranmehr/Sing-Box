@@ -12,7 +12,7 @@
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
-      "udp_timeout": "1m",
+      "udp_timeout": "60s",
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
@@ -37,8 +37,8 @@
     {
       "type": "wireguard",
       "tag": "wireguard-out",
-      "server": "162.159.192.183",
-      "server_port": 4198,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       "system_interface": false,
       "interface_name": "wg0",
       "local_address": [
