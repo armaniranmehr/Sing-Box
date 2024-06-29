@@ -5,8 +5,8 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "trojan",
+      "tag": "trojan-in",
       "listen": "::",
       "listen_port": 5060,
       "tcp_fast_open": true,
@@ -16,8 +16,7 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "uuid": "215adfbc-36bb-4b0f-a5d6-edb8e351ced2",
-          "alterId": 1
+          "password": "W6iEw4Bbj7SaXk8J6X9V7clN0cpGEw48tujaLtJfaOs="
         }
       ],
       "tls": {
