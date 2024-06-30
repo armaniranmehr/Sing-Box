@@ -16,11 +16,11 @@
       "domain_strategy": "prefer_ipv6",
       "obfs": {
         "type": "salamander",
-        "password": "QL0YgrOsCMoFB3gvCGf8lBV2SS66dSVS09s+bEO8qXk="
+        "password": "kiONn6c3OBwkqK0VnauQqCmi3ISdYdqbjAmj4mBdrw0="
       },
       "users": [
         {
-          "password": "B5CJ1u0ljsnTaZyf3A/wkhhEsrzCvHLosMBeYs+4d48="
+          "password": "eWy/vyGl2wiKhZfyz0x+WORF29oBsjCkRvnQ6CIdUb8="
         }
       ],
       "ignore_client_bandwidth": true,
