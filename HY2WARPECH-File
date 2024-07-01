@@ -28,6 +28,8 @@
         "enabled": true,
         "alpn": ["h3"],
         "min_version": "1.3",
+        "certificate_path": "/root/ca.crt",
+        "key_path": "/root/ca.key",
         "ech": {
           "enabled": true,
           "pq_signature_schemes_enabled": true,
