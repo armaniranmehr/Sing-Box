@@ -26,7 +26,6 @@
       "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
-        "alpn": ["h3"],
         "min_version": "1.3",
         "certificate_path": "/root/ca.crt",
         "key_path": "/root/ca.key"
