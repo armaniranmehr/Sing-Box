@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "TunService",
+        "service_name": "ad179ac37c5b89B4",
         "idle_timeout": "20s",
         "ping_timeout": "20s",
         "permit_without_stream": false
