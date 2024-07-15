@@ -10,10 +10,12 @@
       "listen": "::",
       "listen_port": 5060,
       "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
       "udp_timeout": "60s",
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
+      "obfs": {
+        "type": "salamander",
+        "password": "gpyhCjJFOrnZC0GSq4QD641JoHdJ8vvc6jhJQfJDkQ8="
+      },
       "users": [
         {
           "password": "ezUx5t/CY6V2W/Kdqa38XYAv1DhKG8srTaERmANxe1A="
