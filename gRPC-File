@@ -8,10 +8,10 @@
       "type": "vmess",
       "tag": "vmess-in",
       "listen": "::",
-      "listen_port": 8080,
+      "listen_port": 8443,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "domain_strategy": "ipv4_only",
+      "domain_strategy": "prefer_ipv6",
       "users": [
         {
           "uuid": "201c30ea-288f-42b8-8172-357d5c6e8868",
