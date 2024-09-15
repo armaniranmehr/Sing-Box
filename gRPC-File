@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "ec1b06b63f6fd0a",
+        "service_name": "7a83e1bbce1ec40a",
         "idle_timeout": "20s",
         "ping_timeout": "20s",
         "permit_without_stream": false
