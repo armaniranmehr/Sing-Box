@@ -8,13 +8,13 @@
       "type": "vmess",
       "tag": "vmess-in",
       "listen": "::",
-      "listen_port": 8443,
+      "listen_port": 8080,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "domain_strategy": "prefer_ipv6",
+      "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "201c30ea-288f-42b8-8172-357d5c6e8868",
+          "uuid": "fcd5a1ee-d01d-4251-b2a4-43296517ce84",
           "alterId": 1
         }
       ],
@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "ad179ac37c5b89B4",
+        "service_name": "ec1b06b63f6fd0a",
         "idle_timeout": "20s",
         "ping_timeout": "20s",
         "permit_without_stream": false
