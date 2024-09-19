@@ -14,7 +14,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "fcd5a1ee-d01d-4251-b2a4-43296517ce84",
+          "uuid": "971bbafb-50d3-441a-869a-8a5e11930f2f",
           "alterId": 1
         }
       ],
@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "7a83e1bbce1ec40a",
+        "service_name": "9BIA0PkLX7ds9fknKhW6ug",
         "idle_timeout": "20s",
         "ping_timeout": "20s",
         "permit_without_stream": false
