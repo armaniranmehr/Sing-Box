@@ -1,0 +1,51 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "hy2-in",
+      "listen": "::",
+      "listen_port": 5060,
+      "tcp_fast_open": true,
+      "udp_timeout": "60s",
+      "domain_strategy": "ipv4_only",
+      "obfs": {
+        "type": "salamander",
+        "password": "SKg2RfuRf_N6_pjKeyChdQ"
+      },
+      "users": [
+        {
+          "password": "XE6iT57nt_doy3wP4nGbjw"
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "min_version": "1.3",
+        "certificate_path": "/root/ca.crt",
+        "key_path": "/root/ca.key"
+      },
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "hy2-out",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
+      "obfs": {
+        "type": "salamander",
+        "password": "P4hY0pAx_PUXE_tuaP4COg"
+      },
+      "password": "pIIuuyBZxeXwmGIKapjfnA",
+      "network": "udp",
+      "tls": {
+        "enabled": true,
+        "min_version": "1.3",
+        "insecure": true
+      }
+    }
+  ]
+}
