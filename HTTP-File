@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["5.112.0.20:5060"],
+        "host": ["217.218.86.176:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
