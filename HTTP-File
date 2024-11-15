@@ -23,7 +23,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["172.80.253.86:8080"],
+        "host": ["rhaspd2.mci.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
@@ -31,7 +31,9 @@
           "Cache-Control": ["no-store"],
           "Content-Type": ["application/octet-stream"],
           "Content-Length": ["0"]
-        }
+        },
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     }
   ],
