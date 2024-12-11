@@ -1,8 +1,14 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
+ {
+  "dns": {
+    "servers": [
+      {
+        "address": "tcp://8.8.8.8",
+        "strategy": "prefer_ipv6"
+      }
+    ]
+   }
+ }
    "inbounds": [
     {
       "type": "trojan",
@@ -41,7 +47,8 @@
    "route": {
      "rules": [
        {
-       "network": ["udp"],
+       "network": "udp",
+       "port": [443],
        "outbound": "block"
      }
    ]
