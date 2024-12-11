@@ -1,20 +1,25 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
+   {
+    "dns": {
+     "servers": [
+      {
+        "address": "tcp://8.8.8.8",
+        "strategy": "prefer_ipv6"
+        }
+      ]
+     }
+   }
    "inbounds": [
     {
-      "type": "vmess",
+      "type": "trojan",
       "listen": "::",
       "listen_port": 8080,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "domain_strategy": "ipv4_only",
+      "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "uuid": "c6fc2b8e-5dd2-4a8d-b1ba-322c79bec5f4",
-          "alterId": 1
+          "password": "iLBEtNXtHOXBmqEocRW4dw"
         }
       ],
       "tls": {
@@ -22,7 +27,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["ookla-tehran.tci.ir:8080"],
+        "host": ["tehranwest1.irancell.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
@@ -47,7 +52,8 @@
    "route": {
      "rules": [
        {
-       "network": ["udp"],
+       "network": "udp",
+       "port": [443],
        "outbound": "block"
      }
    ]
