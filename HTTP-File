@@ -1,13 +1,11 @@
 {
-   {
-    "dns": {
+   "dns": {
      "servers": [
-      {
-        "address": "tcp://8.8.8.8",
-        "strategy": "prefer_ipv6"
-        }
-      ]
-     }
+       {
+         "address": "tcp://8.8.8.8",
+         "strategy": "prefer_ipv6"
+       }
+     ]
    }
    "inbounds": [
     {
