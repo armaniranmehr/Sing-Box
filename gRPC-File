@@ -1,5 +1,4 @@
 {
- {
   "dns": {
     "servers": [
       {
@@ -7,8 +6,7 @@
         "strategy": "prefer_ipv6"
       }
     ]
-   }
- }
+   },
    "inbounds": [
     {
       "type": "trojan",
