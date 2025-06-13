@@ -9,7 +9,7 @@
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "password": "iLBEtNXtHOXBmqEocRW4dw"
+          "password": ""
         }
       ],
       "tls": {
@@ -17,7 +17,7 @@
       },
       "transport": {
         "type": "http",
-        "host": ["tehranwest1.irancell.ir:8080"],
+        "host": ["speedtest1.irancell.ir:8080"],
         "path": "/download",
         "method": "GET",
         "headers": {
