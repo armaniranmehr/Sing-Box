@@ -29,22 +29,26 @@
       }
     }
   ],
-   "outbounds": [
-     {
-       "type": "direct",
-       "tag": "direct"
-       },
-     {
-       "type": "block",
-       "tag": "block"
-     }
-  ],
-   "route": {
-     "rules": [
-       {
-       "network": "udp",
-       "outbound": "block"
-     }
-   ]
-  }
+      "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "wireguard-out",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
+      "system_interface": false,
+      "gso": false,
+      "interface_name": "wg0",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8341:d786:85f8:6f6d:686a/128"
+      ],
+      "private_key": "uD6OhGZoofju55r3rOTRkXx7rWjdOIVMtESe01+ePXE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "pre_shared_key": "",
+      "reserved": "mlzv",
+      "workers": 8,
+      "mtu": 1280,
+      "network": "udp"
+           }
+     ]
 }
