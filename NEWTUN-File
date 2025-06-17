@@ -31,11 +31,11 @@
   ],
       "outbounds": [
     {
-      "type": "ssh",
-      "server": "",
-      "server_port": ,
-      "user": "root",
-      "password": ""
+        "type": "ssh",
+        "server": "",
+        "server_port": ,
+        "user": "root",
+        "password": ""
         }
     ]
 }
