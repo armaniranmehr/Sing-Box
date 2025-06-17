@@ -1,0 +1,50 @@
+{
+   "inbounds": [
+    {
+      "type": "trojan",
+      "listen": "::",
+      "listen_port": 5060,
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "domain_strategy": "ipv4_only",
+      "users": [
+        {
+          "password": ""
+        }
+      ],
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "http",
+        "host": ["speedtest1.irancell.ir:8080"],
+        "path": "/download",
+        "method": "GET",
+        "headers": {
+          "Connection": ["Keep-Alive"],
+          "Cache-Control": ["no-store"],
+          "Content-Type": ["application/octet-stream"],
+          "Content-Length": ["0"]
+        }
+      }
+    }
+  ],
+   "outbounds": [
+     {
+       "type": "direct",
+       "tag": "direct"
+       },
+     {
+       "type": "block",
+       "tag": "block"
+     }
+  ],
+   "route": {
+     "rules": [
+       {
+       "network": "udp",
+       "outbound": "block"
+     }
+   ]
+  }
+}
