@@ -35,7 +35,7 @@
         "alter_id": 1,
         "network": "tcp",
         "tls": {
-          "enabled": false,
+          "enabled": false
         },
         "transport": {
           "type": "grpc",
