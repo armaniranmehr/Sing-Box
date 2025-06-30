@@ -1,16 +1,19 @@
 {
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
    "inbounds": [
     {
-      "type": "vmess",
+      "type": "trojan",
       "listen": "::",
-      "listen_port": 8080,
+      "listen_port": ,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "",
-          "alterId": 1
+          "password": ""
         }
       ],
       "tls": {
