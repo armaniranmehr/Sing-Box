@@ -5,20 +5,15 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "trojan",
       "listen": "::",
-      "listen_port": 8443,
+      "listen_port": ,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "sniff_timeout": "300ms",
       "domain_strategy": "ipv4_only",
       "users": [
         {
-          "uuid": "ce2c2c66-8257-4af2-990b-d6040cb92974",
-          "alterId": 1
+          "password": ""
         }
       ],
       "tls": {
@@ -26,18 +21,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/download",
-        "headers": {
-          "Cache-Control": ["no-store"],
-          "Connection": ["Keep-Alive"],
-          "Content-Length": ["109"],
-          "Content-Type": ["text/html"],
-          "Host": ["78.39.161.174:8080"]
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "path": "/"
       }
-    }
   ],
    "outbounds": [
      {
