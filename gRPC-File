@@ -21,7 +21,6 @@
       "tls": {
         "enabled": false
         },
-      "network": "tcp",
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
@@ -39,6 +38,14 @@
      {
        "type": "block",
        "tag": "block"
-     }
+     },
+       "route": {
+         "rules": [
+         {
+           "network": ["udp"],
+           "outbound": "block"
+         }
+     ]
+   }
   ]
 }
