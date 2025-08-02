@@ -5,8 +5,8 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "vless",
+      "tag": "vless-in",
       "listen": "::",
       "listen_port": ,
       "tcp_fast_open": true,
@@ -15,11 +15,15 @@
       "users": [
         {
           "uuid": "",
-          "alterId": 1
+          "flow": "xtls-rprx-vision"
         }
       ],
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "",
+        "alpn": [],
+        "certificate_path": "",
+        "key_path": ""
         },
       "transport": {
         "type": "grpc",
