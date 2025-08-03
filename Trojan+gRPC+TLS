@@ -21,12 +21,13 @@
         "enabled": true,
         "server_name": "",
         "alpn": [],
+        "min_version": "",
         "certificate_path": "",
         "key_path": ""
         },
       "transport": {
         "type": "grpc",
-        "service_name": "TunService",
+        "service_name": "",
         "idle_timeout": "15s",
         "ping_timeout": "15s",
         "permit_without_stream": false
