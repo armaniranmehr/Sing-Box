@@ -12,7 +12,7 @@
       "tcp_fast_open": true,
       "tcp_multi_path": false,
       "udp_fragment": false,
-      "udp_timeout": "30s",
+      "udp_timeout": "60s",
       "users": [
         {
           "uuid": "",
@@ -24,14 +24,20 @@
         "server_name": "",
         "alpn": ["h2"],
         "min_version": "1.3",
-        "certificate_path": "",
-        "key_path": ""
-        },
+        "certificate_path": 
+           "",
+        "key_path": 
+           "",
+        "ech": {
+          "enabled": true,
+          "key_path": ""
+        }
+      },
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
         "idle_timeout": "15s",
-        "ping_timeout": "30s",
+        "ping_timeout": "15s",
         "permit_without_stream": false
       }
     }
