@@ -5,27 +5,33 @@
   },
    "inbounds": [
     {
-      "type": "vmess",
-      "tag": "vmess-in",
+      "type": "vless",
+      "tag": "vless-in",
       "listen": "::",
       "listen_port": ,
       "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "domain_strategy": "ipv4_only",
+      "tcp_multi_path": false,
+      "udp_fragment": false,
+      "udp_timeout": "30s",
       "users": [
         {
           "uuid": "",
-          "alterId": 1
+          "flow": ""
         }
       ],
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "",
+        "alpn": ["h2"],
+        "min_version": "1.3",
+        "certificate_path": "",
+        "key_path": ""
         },
       "transport": {
         "type": "grpc",
         "service_name": "TunService",
         "idle_timeout": "15s",
-        "ping_timeout": "15s",
+        "ping_timeout": "30s",
         "permit_without_stream": false
       }
     }
@@ -33,19 +39,7 @@
    "outbounds": [
      {
        "type": "direct",
-       "tag": "direct"
-       },
-     {
-       "type": "block",
-       "tag": "block"
+       "tag": "direct-out"
      }
   ],
-       "route": {
-         "rules": [
-         {
-           "network": ["udp"],
-           "outbound": "block"
-         }
-      ]
-   }
 }
