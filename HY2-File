@@ -13,10 +13,10 @@
       "tcp_multi_path": false,
       "udp_fragment": false,
       "udp_timeout": "60s",
-      "up_mbps": ,
-      "down_mbps": ,
+      "up_mbps": 0,
+      "down_mbps": 0,
       "obfs": {
-        "type": "",
+        "type": "salamander",
         "password": ""
       },
       "users": [
@@ -37,7 +37,6 @@
           "key_path": "/root/ech.key"
         }
       },
-      "masquerade": "",
       "brutal_debug": false
     }
   ],
