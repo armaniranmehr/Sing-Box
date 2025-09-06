@@ -12,7 +12,7 @@
       "tcp_fast_open": true,
       "tcp_multi_path": false,
       "udp_fragment": false,
-      "udp_timeout": "60s",
+      "udp_timeout": "1m",
       "users": [
         {
           "uuid": ""
