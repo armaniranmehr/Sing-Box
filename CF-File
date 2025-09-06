@@ -15,8 +15,7 @@
       "udp_timeout": "60s",
       "users": [
         {
-          "uuid": "",
-          "flow": ""
+          "uuid": ""
         }
       ],
       "tls": {
