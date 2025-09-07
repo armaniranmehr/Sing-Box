@@ -12,7 +12,8 @@
       "tcp_fast_open": true,
       "users": [
         {
-          "uuid": ""
+          "uuid": "",
+          "flow": ""
         }
       ],
       "tls": {
