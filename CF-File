@@ -12,8 +12,7 @@
       "tcp_fast_open": true,
       "users": [
         {
-          "uuid": "",
-          "flow": ""
+          "uuid": ""
         }
       ],
       "tls": {
@@ -39,8 +38,7 @@
           "Sec-WebSocket-Key": "",
           "Sec-WebSocket-Version": "13"
         },
-        "max_early_data": 0,
-        "early_data_header_name": ""
+        "max_early_data": 0
       }
     }
   ],
