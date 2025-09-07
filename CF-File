@@ -36,7 +36,7 @@
           "Upgrade": "websocket",
           "Connection": "Upgrade",
           "Sec-WebSocket-Key": "",
-          "Sec-WebSocket-Version": 13
+          "Sec-WebSocket-Version": "13"
         },
         "max_early_data": 0,
         "early_data_header_name": ""
