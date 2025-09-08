@@ -33,10 +33,8 @@
         "path": "",
         "headers": {
           "Host": "",
-          "Upgrade": "websocket",
           "Connection": "Upgrade",
-          "Sec-WebSocket-Key": "",
-          "Sec-WebSocket-Version": "13"
+          "Upgrade": "websocket"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
