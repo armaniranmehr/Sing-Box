@@ -10,7 +10,11 @@
       "listen": "0.0.0.0",
       "listen_port": ,
       "tcp_fast_open": true,
-      "users": [{"uuid": ""}],
+      "users": [
+        {
+          "uuid": ""
+        }
+      ],
       "tls": {
         "enabled": true,
         "server_name": "",
