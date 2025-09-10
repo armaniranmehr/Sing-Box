@@ -18,7 +18,6 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "alpn": ["http/1.1"],
         "min_version": "1.3",
         "cipher_suites": ["TLS_AES_128_GCM_SHA256"],
         "certificate_path": "",
