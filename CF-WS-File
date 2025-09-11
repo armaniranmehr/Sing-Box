@@ -28,9 +28,7 @@
         "type": "ws",
         "path": "",
         "headers": {
-          "Host": "",
-          "Connection": "Upgrade",
-          "Upgrade": "websocket"
+          "Host": ""
         },
         "max_early_data": 0
       }
