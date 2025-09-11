@@ -26,8 +26,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "",
-        "max_early_data": 0
+        "path": ""
       }
     }
   ],
