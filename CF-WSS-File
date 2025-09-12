@@ -27,6 +27,11 @@
       "transport": {
         "type": "ws",
         "path": "",
+        "headers": {
+          "Host": "",
+          "Upgrade": "websocket",
+          "Connection": "Upgrade"
+        },
         "max_early_data": 0
       }
     }
