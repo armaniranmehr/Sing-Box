@@ -10,16 +10,18 @@
       "listen": "::",
       "listen_port": ,
       "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "domain_strategy": "ipv4_only",
       "users": [
         {
           "uuid": "",
-          "alterId": 1
+          "alterId": 0
         }
       ],
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "",
+        "alpn": ["http/1.1],
+        "min_version": "1.3",
+        "cipher_suites": ["TLS_AES_128_GCM_SHA256"]
       },
       "transport": {
         "type": "http",
@@ -38,19 +40,7 @@
    "outbounds": [
      {
        "type": "direct",
-       "tag": "direct"
-       },
-     {
-       "type": "block",
-       "tag": "block"
-     }
-  ],
-   "route": {
-     "rules": [
-       {
-       "network": ["udp"],
-       "outbound": "block"
-     }
-   ]
-  }
+       "tag": "direct-out"
+     },
+  ]
 }
