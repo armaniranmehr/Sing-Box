@@ -1,0 +1,45 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+   "inbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-in",
+      "listen": "0.0.0.0",
+      "listen_port": ,
+      "tcp_fast_open": true,
+      "users": [
+        {
+          "uuid": ""
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "alpn": ["http/1.1"],
+        "min_version": "1.3",
+        "cipher_suites": ["TLS_AES_128_GCM_SHA256"],
+        "certificate_path": "/root/crt.pem",
+        "key_path": "/root/key.pem"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "",
+          "Upgrade": "websocket",
+          "Connection": "Upgrade"
+        },
+        "max_early_data": 0
+      }
+    }
+  ],
+   "outbounds": [
+     {
+       "type": "direct",
+       "tag": "direct-out"
+     }
+  ],
+}
