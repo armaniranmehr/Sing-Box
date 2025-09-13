@@ -5,14 +5,15 @@
   },
    "inbounds": [
     {
-      "type": "vless",
-      "tag": "vless-in",
+      "type": "vmess",
+      "tag": "vmess-in",
       "listen": "0.0.0.0",
       "listen_port": ,
       "tcp_fast_open": true,
       "users": [
         {
-          "uuid": ""
+          "uuid": "",
+          "alterId": 0
         }
       ],
       "tls": {
