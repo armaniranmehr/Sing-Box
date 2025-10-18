@@ -21,6 +21,8 @@
         "server_name": "",
         "alpn": ["http/1.1"],
         "min_version": "1.3",
+        "cipher_suites": ["TLS_AES_128_GCM_SHA256"],
+        "curve_preferences": ["X25519"],
         "certificate_path": "/root/certificate.pem",
         "key_path": "/root/key.pem"
       },
